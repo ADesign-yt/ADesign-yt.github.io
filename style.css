@@ -4,23 +4,11 @@
 
 @media screen and (max-width: 768px) {
 
- .footer {
-     display: none;
- }
-
-.footer_content {
+  .navbar{
     display: none;
-}
+  }
 
- .header_text {
-    font-size:2vw;
- }
-
- .navbar {
-   display: none;
- }
- 
-}
+  }
 
 body {
     font-family: 'Arial', sans-serif;
@@ -51,6 +39,14 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
+}
+
+.invisible_text{
+  display: none;
+}
+
+.welcome_text_phone{
+  display: none;
 }
 
 .navbar {
@@ -111,7 +107,7 @@ a {
 }
 
 .welcome_text {
-  font-size: 8rem;
+  font-size: 8vw;
   margin-top: 10%;
 }
 
@@ -119,7 +115,7 @@ a {
     text-align: center;
     margin-top: 120px;
     padding-bottom: -30px;
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 .under_header_text {
@@ -129,7 +125,7 @@ a {
     opacity: 0.4; 
     padding-top: -4%;
     padding-bottom: 5%;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .header_bg {
@@ -151,7 +147,7 @@ a {
   text-align: center;
   margin-top: 120px;
   padding-bottom: -30px;
-  font-size: 5rem;
+  font-size: 5vw;
 }
 
 
@@ -208,7 +204,7 @@ a {
 
 .description-text {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #fff;
   margin-bottom: 20px;
@@ -356,14 +352,14 @@ img {
 }
 
 .contact_container h1 {
-  font-size: 3rem;
+  font-size:5vw;
 }
 
 .contact-with-us-text {
   text-align: center;
   margin-top: 120px;
   padding-bottom: -30px;
-  font-size: 5rem;
+  font-size:5vw;
 }
 
 /* Styl dla stopki */
