@@ -4,12 +4,20 @@
 
 @media screen and (max-width: 768px) {
 
+  .why-us-header-text{
+    font-size: 4rem;
+  }
+  
+  .animated-text{
+    font-size: 4rem
+  }
+  
   h1 {
-    font-size: 3rem; /* Średni tytuł na telefonie */
+    font-size: 10rem; /* Średni tytuł na telefonie */
 }
 
   p {
-    font-size: 1rem; /* Średni tekst na telefonie */
+    font-size: 2rem; /* Średni tekst na telefonie */
 }
 
   .footer {
