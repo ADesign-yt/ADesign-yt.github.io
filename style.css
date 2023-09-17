@@ -4,11 +4,26 @@
 
 @media screen and (max-width: 768px) {
 
-  .navbar{
+  h1 {
+    font-size: 3rem; /* Średni tytuł na telefonie */
+}
+
+  p {
+    font-size: 1rem; /* Średni tekst na telefonie */
+}
+
+  .footer {
     display: none;
   }
 
+  .navbar {
+    display: none;
   }
+
+  .footer_content {
+    display: none;
+  }
+}
 
 body {
     font-family: 'Arial', sans-serif;
